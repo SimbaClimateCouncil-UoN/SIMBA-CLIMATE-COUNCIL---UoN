@@ -1,0 +1,549 @@
+--- FILE: README.md
+# Simba Climate Council Website (GitHub Pages)
+
+This repository contains a simple, responsive static website for Simba Climate Council (University of Nairobi). It's ready to be hosted on GitHub Pages.
+
+**Files included**
+- index.html
+- about.html
+- programs.html
+- team.html
+- chair.html
+- contact.html
+- css/styles.css
+- assets/ (place your images here)
+
+**Images you must add** (use these exact filenames):
+- `assets/logo.jpg` — the SCC logo you uploaded
+- `assets/chair.jpg` — Chair portrait (Makarious Njuguna)
+
+--- FILE: index.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simba Climate Council — University of Nairobi</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link"><img src="assets/logo.jpg" alt="Simba Climate Council logo" class="logo"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Simba Climate Council</h1>
+      <p class="tagline">Redefining Climate Governance for a Resilient Kenya — An initiative based at the University of Nairobi</p>
+      <p class="cta">We engage students, faculty and professionals in shaping evidence-based policy and practical climate action.</p>
+      <div class="hero-actions">
+        <a class="btn" href="about.html">Learn More</a>
+        <a class="btn btn-outline" href="team.html">Meet the Team</a>
+      </div>
+    </section>
+
+    <section class="quick-links">
+      <div class="card">
+        <h3>Our Focus Areas</h3>
+        <ul>
+          <li>Climate governance & policy</li>
+          <li>Research-informed advocacy</li>
+          <li>Creative interventions (eco-art, hackathons)</li>
+          <li>Curriculum influence & capacity building</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Get Involved</h3>
+        <p>Open membership to all UoN students. Reach out to join our programs and events.</p>
+        <a href="contact.html" class="btn btn-small">Contact Us</a>
+      </div>
+
+      <div class="card">
+        <h3>Follow Us</h3>
+        <p>Stay current with our updates on social media.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/profile.php?id=61578686588337" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://x.com/Scc_UoN2024" target="_blank" rel="noopener">X (Twitter)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; Simba Climate Council — University of Nairobi</p>
+        <p>Email: <a href="mailto:simbaclimatecouncil@proton.me">simbaclimatecouncil@proton.me</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/profile.php?id=61578686588337" target="_blank">Facebook</a>
+        <a href="https://x.com/Scc_UoN2024" target="_blank">X (Twitter)</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+--- FILE: about.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Simba Climate Council</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link"><img src="assets/logo.jpg" alt="Simba Climate Council logo" class="logo"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h1>About Simba Climate Council</h1>
+    <section class="profile">
+      <h2>Vision</h2>
+      <p>To be a university-rooted hub leading creative, governance-based interventions for climate action at institutional, national, and global levels.</p>
+
+      <h2>Mission</h2>
+      <p>To engage students, faculty, and professionals in shaping evidence-based policies and dynamic strategies for climate change mitigation and adaptation through advocacy, well-designed research, and strategic collaboration.</p>
+
+      <h2>What We Do</h2>
+      <p>Simba Climate Council (SCC) focuses on building capacity in climate governance, developing policy proposals, partnering with government and NGOs, and implementing creative climate interventions like eco-art and hackathons. We aim to influence university curricula to include governance-focused climate content and to mobilize student–faculty–professional collaborations.</p>
+
+      <h2>Membership</h2>
+      <p>Membership is open to all University of Nairobi students with an interest in climate governance. Members are expected to participate in SCC programs and demonstrate commitment to evidence-based climate action.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; Simba Climate Council — University of Nairobi</p>
+        <p>Email: <a href="mailto:simbaclimatecouncil@proton.me">simbaclimatecouncil@proton.me</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/profile.php?id=61578686588337" target="_blank">Facebook</a>
+        <a href="https://x.com/Scc_UoN2024" target="_blank">X (Twitter)</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+--- FILE: programs.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programs — Simba Climate Council</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link"><img src="assets/logo.jpg" alt="Simba Climate Council logo" class="logo"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h1>Programs & Activities</h1>
+    <p>Our core programs include:</p>
+    <ul>
+      <li><strong>Policy Workshops:</strong> Co-creating policy briefs with students and faculty for government agencies.</li>
+      <li><strong>Research & Publications:</strong> Evidence-based research into climate governance and adaptation.</li>
+      <li><strong>Creative Interventions:</strong> Eco-art, hackathons, and community engagement projects.</li>
+      <li><strong>Curriculum Engagement:</strong> Advocacy to integrate climate governance topics into university courses.</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; Simba Climate Council — University of Nairobi</p>
+        <p>Email: <a href="mailto:simbaclimatecouncil@proton.me">simbaclimatecouncil@proton.me</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/profile.php?id=61578686588337" target="_blank">Facebook</a>
+        <a href="https://x.com/Scc_UoN2024" target="_blank">X (Twitter)</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+--- FILE: team.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team — Simba Climate Council</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link"><img src="assets/logo.jpg" alt="Simba Climate Council logo" class="logo"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h1>Leadership Team</h1>
+    <p>Meet our founding leads. Click a card to view a full profile.</p>
+
+    <div class="team-grid">
+      <!-- Full team list -->
+      <article class="team-card">
+        <a class="card-link" href="chair.html">
+          <img src="assets/chair.jpg" alt="Makarious Njuguna — Chairperson" class="team-photo">
+          <div class="card-body">
+            <h3>Makarious Njuguna</h3>
+            <p class="role">Chairperson</p>
+          </div>
+        </a>
+      </article>
+
+      <!-- Placeholder team cards for future photos -->
+      <article class="team-card">
+        <a class="card-link" href="member2.html">
+          <img src="assets/placeholder.jpg" alt="Team Member" class="team-photo">
+          <div class="card-body"><h3>Mackline Otieno</h3><p class="role">Secretary General</p></div>
+        </a>
+      </article>
+
+      <article class="team-card">
+        <a class="card-link" href="member3.html">
+          <img src="assets/placeholder.jpg" alt="Team Member" class="team-photo">
+          <div class="card-body"><h3>Brian Maangi</h3><p class="role">Treasurer</p></div>
+        </a>
+      </article>
+
+      <article class="team-card">
+        <a class="card-link" href="member4.html">
+          <img src="assets/placeholder.jpg" alt="Team Member" class="team-photo">
+          <div class="card-body"><h3>Bradley</h3><p class="role">Policy & Research</p></div>
+        </a>
+      </article>
+
+      <article class="team-card">
+        <a class="card-link" href="member5.html">
+          <img src="assets/placeholder.jpg" alt="Team Member" class="team-photo">
+          <div class="card-body"><h3>Emmanuel Kisemei</h3><p class="role">Partnerships & Fundraising</p></div>
+        </a>
+      </article>
+
+      <article class="team-card">
+        <a class="card-link" href="member6.html">
+          <img src="assets/placeholder.jpg" alt="Team Member" class="team-photo">
+          <div class="card-body"><h3>Brenda Kawira</h3><p class="role">Communications & Media</p></div>
+        </a>
+      </article>
+
+      <article class="team-card">
+        <a class="card-link" href="member7.html">
+          <img src="assets/placeholder.jpg" alt="Team Member" class="team-photo">
+          <div class="card-body"><h3>Brian Ochieng</h3><p class="role">Student Representative</p></div>
+        </a>
+      </article>
+
+      <article class="team-card">
+        <a class="card-link" href="member8.html">
+          <img src="assets/placeholder.jpg" alt="Team Member" class="team-photo">
+          <div class="card-body"><h3>Ireri Ramadhana</h3><p class="role">Project Lead</p></div>
+        </a>
+      </article>
+
+      <article class="team-card">
+        <a class="card-link" href="member9.html">
+          <img src="assets/placeholder.jpg" alt="Team Member" class="team-photo">
+          <div class="card-body"><h3>Pius Khisa</h3><p class="role">Public Relations</p></div>
+        </a>
+      </article>
+
+      <article class="team-card">
+        <a class="card-link" href="member10.html">
+          <img src="assets/placeholder.jpg" alt="Team Member" class="team-photo">
+          <div class="card-body"><h3>Millicent Moraa</h3><p class="role">SCC Secretary</p></div>
+        </a>
+      </article>
+        </a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; Simba Climate Council — University of Nairobi</p>
+        <p>Email: <a href="mailto:simbaclimatecouncil@proton.me">simbaclimatecouncil@proton.me</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/profile.php?id=61578686588337" target="_blank">Facebook</a>
+        <a href="https://x.com/Scc_UoN2024" target="_blank">X (Twitter)</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+--- FILE: chair.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Makarious Njuguna — Chairperson</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link"><img src="assets/logo.jpg" alt="Simba Climate Council logo" class="logo"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content profile-page">
+    <div class="profile-header">
+      <img src="assets/chair.jpg" alt="Makarious Njuguna" class="profile-photo">
+      <div>
+        <h1>Makarious Njuguna</h1>
+        <p class="role">Chairperson, Simba Climate Council</p>
+        <div class="contact-inline">Email: <a href="mailto:simbaclimatecouncil@proton.me">simbaclimatecouncil@proton.me</a></div>
+      </div>
+    </div>
+
+    <section class="bio">
+      <h2>Short Bio</h2>
+      <p>Makarious Njuguna is a geographer, a communications professional, and a passionate climate enthusiast based at the University of Nairobi. As Chairperson of Simba Climate Council, he coordinates governance-driven climate research, outreach, and student–faculty collaborations aimed at shaping evidence-based policy and practical interventions for climate resilience.</p>
+
+      <h3>Interests & Expertise</h3>
+      <ul>
+        <li>Climate governance and policy</li>
+        <li>Geographical research and spatial analysis</li>
+        <li>Climate communications and outreach</li>
+        <li>Curriculum innovation and student engagement</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; Simba Climate Council — University of Nairobi</p>
+        <p>Email: <a href="mailto:simbaclimatecouncil@proton.me">simbaclimatecouncil@proton.me</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/profile.php?id=61578686588337" target="_blank">Facebook</a>
+        <a href="https://x.com/Scc_UoN2024" target="_blank">X (Twitter)</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+--- FILE: contact.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Simba Climate Council</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link"><img src="assets/logo.jpg" alt="Simba Climate Council logo" class="logo"></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programs.html">Programs</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
+    <h1>Contact Us</h1>
+    <p>For membership, partnerships or media enquiries reach us at:</p>
+    <ul>
+      <li>Email: <a href="mailto:simbaclimatecouncil@proton.me">simbaclimatecouncil@proton.me</a></li>
+      <li>Facebook: <a href="https://www.facebook.com/profile.php?id=61578686588337" target="_blank">Simba Climate Council (Facebook)</a></li>
+      <li>X (Twitter): <a href="https://x.com/Scc_UoN2024" target="_blank">@Scc_UoN2024</a></li>
+    </ul>
+
+    <h2>Office (Suggested)</h2>
+    <p>Department of Geography, University of Nairobi — please contact by email before visiting.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>&copy; Simba Climate Council — University of Nairobi</p>
+        <p>Email: <a href="mailto:simbaclimatecouncil@proton.me">simbaclimatecouncil@proton.me</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/profile.php?id=61578686588337" target="_blank">Facebook</a>
+        <a href="https://x.com/Scc_UoN2024" target="_blank">X (Twitter)</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+--- FILE: css/styles.css
+/* Simple responsive styling for Simba Climate Council website */
+:root{
+  --green:#2e8b57; /* main green */
+  --accent-red:#b22222; /* accent red */
+  --deep-blue:#0a3b6e; /* taken from logo tones */
+  --white:#ffffff;
+  --muted:#f5f5f5;
+  --max-width:1100px;
+}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.5;color:#222;margin:0;background:var(--muted)}
+.container{max-width:var(--max-width);margin:0 auto;padding:1rem}
+.site-header{background:var(--white);border-bottom:1px solid #e7e7e7}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:0.75rem 0}
+.logo{height:64px;border-radius:6px}
+.main-nav a{margin-left:1rem;text-decoration:none;color:var(--deep-blue);font-weight:600}
+.hero{padding:2rem 0;text-align:center}
+.hero h1{font-size:2.25rem;margin:0;color:var(--deep-blue)}
+.tagline{color:var(--green);font-weight:700}
+.cta{max-width:720px;margin:0.75rem auto 1.5rem}
+.btn{display:inline-block;padding:0.5rem 1rem;border-radius:8px;background:var(--green);color:var(--white);text-decoration:none;font-weight:700;margin-right:0.5rem}
+.btn-outline{background:transparent;border:2px solid var(--green);color:var(--green)}
+.btn-small{padding:0.4rem 0.6rem}
+.quick-links{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1.5rem}
+.card{background:var(--white);padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.socials a{display:inline-block;margin-right:0.5rem;text-decoration:none;color:var(--deep-blue);font-weight:600}
+.content{padding:1.5rem 0}
+.profile-header{display:flex;gap:1rem;align-items:center}
+.profile-photo{width:150px;height:150px;object-fit:cover;border-radius:8px;border:4px solid var(--white);box-shadow:0 4px 10px rgba(0,0,0,0.08)}
+.team-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.team-card{background:var(--white);border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.team-photo{width:100%;height:260px;object-fit:cover;display:block}
+.card-body{padding:0.75rem}
+.role{color:var(--green);font-weight:700}
+.profile-page .bio{margin-top:1rem;background:var(--white);padding:1rem;border-radius:8px}
+.site-footer{background:var(--deep-blue);color:var(--white);padding:1rem 0;margin-top:2rem}
+.footer-inner{display:flex;justify-content:space-between;align-items:center}
+.footer-links a{color:var(--white);margin-left:0.75rem;text-decoration:none}
+@media(max-width:720px){
+  .header-inner{flex-direction:column;gap:0.5rem}
+  .footer-inner{flex-direction:column;text-align:center;gap:0.5rem}
+  .profile-header{flex-direction:column;text-align:center}
+}
+
+/* Small utility */
+ul{padding-left:1.2rem}
+
+---
+
+--- FILE: member2.html
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Mackline Otieno — Secretary General</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+<header class="site-header"><div class="container header-inner"><a href="index.html" class="logo-link"><img src="assets/logo.jpg" class="logo"></a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="container content profile-page"><div class="profile-header"><img src="assets/member2.jpg" class="profile-photo"><div><h1>Mackline Otieno</h1><p class="role">Secretary General</p></div></div><section class="bio"><p>Bio to be added.</p></section></main>
+<footer class="site-footer"><div class="container footer-inner"><div><p>&copy; Simba Climate Council</p></div></div></footer>
+</body></html>
+
+--- FILE: member3.html
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Brian Maangi — Treasurer</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header class="site-header"><div class="container header-inner"><a href="index.html"><img src="assets/logo.jpg" class="logo"></a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="container content profile-page"><div class="profile-header"><img src="assets/member3.jpg" class="profile-photo"><div><h1>Brian Maangi</h1><p class="role">Treasurer</p></div></div><section class="bio"><p>Bio to be added.</p></section></main>
+<footer class="site-footer"><div class="container footer-inner"><p>&copy; Simba Climate Council</p></div></footer>
+</body></html>
+
+--- FILE: member4.html
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Bradley — Policy & Research</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header class="site-header"><div class="container header-inner"><a href="index.html"><img src="assets/logo.jpg" class="logo"></a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="container content profile-page"><div class="profile-header"><img src="assets/member4.jpg" class="profile-photo"><div><h1>Bradley</h1><p class="role">Policy & Research</p></div></div><section class="bio"><p>Bio to be added.</p></section></main>
+<footer class="site-footer"><div class="container footer-inner"><p>&copy; Simba Climate Council</p></div></footer>
+</body></html>
+
+--- FILE: member5.html
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Emmanuel Kisemei — Partnerships & Fundraising</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header class="site-header"><div class="container header-inner"><a href="index.html"><img src="assets/logo.jpg" class="logo"></a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="container content profile-page"><div class="profile-header"><img src="assets/member5.jpg" class="profile-photo"><div><h1>Emmanuel Kisemei</h1><p class="role">Partnerships & Fundraising</p></div></div><section class="bio"><p>Bio to be added.</p></section></main>
+<footer class="site-footer"><div class="container footer-inner"><p>&copy; Simba Climate Council</p></div></footer>
+</body></html>
+
+--- FILE: member6.html
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Brenda Kawira — Communications & Media</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header class="site-header"><div class="container header-inner"><a href="index.html"><img src="assets/logo.jpg" class="logo"></a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="container content profile-page"><div class="profile-header"><img src="assets/member6.jpg" class="profile-photo"><div><h1>Brenda Kawira</h1><p class="role">Communications & Media</p></div></div><section class="bio"><p>Bio to be added.</p></section></main>
+<footer class="site-footer"><div class="container footer-inner"><p>&copy; Simba Climate Council</p></div></footer>
+</body></html>
+
+--- FILE: member7.html
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Brian Ochieng — Student Representative</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header class="site-header"><div class="container header-inner"><a href="index.html"><img src="assets/logo.jpg" class="logo"></a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="container content profile-page"><div class="profile-header"><img src="assets/member7.jpg" class="profile-photo"><div><h1>Brian Ochieng</h1><p class="role">Student Representative</p></div></div><section class="bio"><p>Bio to be added.</p></section></main>
+<footer class="site-footer"><div class="container footer-inner"><p>&copy; Simba Climate Council</p></div></footer>
+</body></html>
+
+--- FILE: member8.html
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Ireri Ramadhana — Project Lead</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header class="site-header"><div class="container header-inner"><a href="index.html"><img src="assets/logo.jpg" class="logo"></a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="container content profile-page"><div class="profile-header"><img src="assets/member8.jpg" class="profile-photo"><div><h1>Ireri Ramadhana</h1><p class="role">Project Lead</p></div></div><section class="bio"><p>Bio to be added.</p></section></main>
+<footer class="site-footer"><div class="container footer-inner"><p>&copy; Simba Climate Council</p></div></footer>
+</body></html>
+
+--- FILE: member9.html
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Pius Khisa — Public Relations</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header class="site-header"><div class="container header-inner"><a href="index.html"><img src="assets/logo.jpg" class="logo"></a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="container content profile-page"><div class="profile-header"><img src="assets/member9.jpg" class="profile-photo"><div><h1>Pius Khisa</h1><p class="role">Public Relations</p></div></div><section class="bio"><p>Bio to be added.</p></section></main>
+<footer class="site-footer"><div class="container footer-inner"><p>&copy; Simba Climate Council</p></div></footer>
+</body></html>
+
+--- FILE: member10.html
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Millicent Moraa — SCC Secretary</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header class="site-header"><div class="container header-inner"><a href="index.html"><img src="assets/logo.jpg" class="logo"></a><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="programs.html">Programs</a><a href="team.html">Team</a><a href="contact.html">Contact</a></nav></div></header>
+<main class="container content profile-page"><div class="profile-header"><
